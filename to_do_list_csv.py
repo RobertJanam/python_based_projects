@@ -58,8 +58,8 @@ def save_task_to_csv():
                 
 def main():
     while True:
-        print("""Welcome to your To-do-list app""")
-        print("""==============================""")
+        print("Welcome to your To-do-list app")
+        print("==============================")
         print("1. Add Task\n"
             "2. Delete Task\n"
             "3. Show Tasks\n"
