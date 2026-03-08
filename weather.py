@@ -10,7 +10,7 @@ def main():
         try:
             user_input = int(input("Enter option of your choice(1-4): "))
             if user_input == 1:
-                api_key = '354465f459fa269e198bb9945da90794'
+                api_key = # use openWeather to generate API key and paste it over this comment
                 search = input("Enter City: ").lower().capitalize()
                 handling_request_time_error(search, api_key)
             elif user_input == 2:
